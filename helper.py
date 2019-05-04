@@ -2,7 +2,7 @@ import random
 
 def proPlayer(matrix,player,oppon):
     gridSize = len(matrix)
-    print(player,oppon)
+    #print(player,oppon)         
     move = MakeorBlockMove(matrix,player)
     if move != [] : 
         return move
